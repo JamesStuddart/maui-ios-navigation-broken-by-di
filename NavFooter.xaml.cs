@@ -7,18 +7,33 @@ public partial class NavFooter : ContentView
 		InitializeComponent();
 	}
 
-    public async void Home_Clicked(System.Object sender, System.EventArgs e)
+    //public async void Home_Clicked(System.Object sender, System.EventArgs e)
+    //{
+    //    await Shell.Current.GoToAsync("//MainPage", false);
+    //}
+
+    //public async void Second_Clicked(System.Object sender, System.EventArgs e)
+    //{
+    //    await Shell.Current.GoToAsync(nameof(SecondPage), false);
+    //}
+
+    //public async void Third_Clicked(System.Object sender, System.EventArgs e)
+    //{
+    //    await Shell.Current.GoToAsync(nameof(ThirdPage), false);
+    //}
+
+    public void Home_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Shell.Current.GoToAsync("//MainPage", false);
+        Shell.Current.GoToAsync("//MainPage", false);
     }
 
-    public async void Second_Clicked(System.Object sender, System.EventArgs e)
+    public void Second_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(SecondPage), false);
+        Shell.Current.GoToAsync(nameof(SecondPage), false);
     }
 
-    public async void Third_Clicked(System.Object sender, System.EventArgs e)
+    public void Third_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(ThirdPage), false);
+        Shell.Current.GoToAsync(nameof(ThirdPage), false);
     }
 }

@@ -21,9 +21,9 @@ public static class MauiProgram
 
 
 		// Comment out these three lines and the navigation works
-        builder.Services.AddSingleton<MainPage>();
-        builder.Services.AddSingleton<SecondPage>();
-        builder.Services.AddSingleton<ThirdPage>();
+        //builder.Services.AddSingleton<MainPage>();
+        //builder.Services.AddSingleton<SecondPage>();
+        //builder.Services.AddSingleton<ThirdPage>();
 
 
         return builder.Build();
